@@ -57,4 +57,4 @@ When Performance Mode is enabled, the plugin:
 
 ## Author
 
-Created by Bluscream
+Created by **Bluscream** 🎯
