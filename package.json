@@ -1,0 +1,50 @@
+{
+    "name": "blu-performancemodetoggle",
+    "version": "1.0.0",
+    "description": "Adds a performance mode toggle button that optimizes Discord settings for better performance",
+    "main": "index.tsx",
+    "scripts": {
+        "build": "echo 'No build step required for Vencord user plugins'",
+        "test": "echo 'No tests specified'",
+        "lint": "echo 'Linting would go here'"
+    },
+    "keywords": [
+        "vencord",
+        "discord",
+        "performance",
+        "mode",
+        "toggle",
+        "optimization",
+        "settings",
+        "plugin",
+        "userplugin",
+        "chat",
+        "button"
+    ],
+    "author": {
+        "name": "Bluscream",
+        "url": "https://github.com/Bluscream"
+    },
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Bluscream/vencord-plugins.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Bluscream/vencord-plugins/issues"
+    },
+    "homepage": "https://github.com/Bluscream/vencord-plugins#readme",
+    "vencord": {
+        "plugin": true,
+        "userPlugin": true
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "files": [
+        "index.tsx",
+        "style.css",
+        "README.md",
+        "package.json"
+    ]
+}
