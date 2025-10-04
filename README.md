@@ -4,21 +4,21 @@ A Vencord user plugin that adds a performance mode toggle button to optimize Dis
 
 ## Features
 
--   **Performance Mode Toggle**: Quick access button in the chat input area
--   **Automatic Settings Optimization**: Disables resource-intensive features when enabled
--   **Settings Restoration**: Saves and restores original settings when disabled
--   **Customizable Options**: Configure which optimizations to apply
--   **Visual Feedback**: Shows current status and active optimizations
+- **Performance Mode Toggle**: Quick access button in the chat input area
+- **Automatic Settings Optimization**: Disables resource-intensive features when enabled
+- **Settings Restoration**: Saves and restores original settings when disabled
+- **Customizable Options**: Configure which optimizations to apply
+- **Visual Feedback**: Shows current status and active optimizations
 
 ## Settings
 
--   **Enable**: Toggle performance mode on/off
--   **Disable Embeds**: Disable auto-embed links (reduces network requests)
--   **Compact Mode**: Enable compact message mode (less visual clutter)
--   **Disable Animated Emojis**: Disable animated emojis (reduces CPU usage)
--   **Disable Auto-play GIFs**: Disable auto-play GIFs (saves bandwidth)
--   **Disable Activity Status**: Disable activity status sharing (reduces overhead)
--   **Custom CSS**: Apply custom performance CSS optimizations
+- **Enable**: Toggle performance mode on/off
+- **Disable Embeds**: Disable auto-embed links (reduces network requests)
+- **Compact Mode**: Enable compact message mode (less visual clutter)
+- **Disable Animated Emojis**: Disable animated emojis (reduces CPU usage)
+- **Disable Auto-play GIFs**: Disable auto-play GIFs (saves bandwidth)
+- **Disable Activity Status**: Disable activity status sharing (reduces overhead)
+- **Custom CSS**: Apply custom performance CSS optimizations
 
 ## How It Works
 
@@ -26,12 +26,12 @@ When Performance Mode is enabled, the plugin:
 
 1. Saves your current Discord settings
 2. Applies performance optimizations:
-    - Disables auto-embed links
-    - Enables compact message mode
-    - Disables animated emojis
-    - Disables auto-play GIFs
-    - Disables activity status sharing
-    - Applies custom CSS optimizations
+   - Disables auto-embed links
+   - Enables compact message mode
+   - Disables animated emojis
+   - Disables auto-play GIFs
+   - Disables activity status sharing
+   - Applies custom CSS optimizations
 3. Shows a toggle button in the chat input area
 4. Restores original settings when disabled
 
@@ -49,6 +49,11 @@ When Performance Mode is enabled, the plugin:
 3. Click the performance mode toggle button (⚡) in the chat input area
 4. The button will show "⚡ ON" when performance mode is active
 5. Click again to disable and restore original settings
+
+## Dependencies
+
+- UserSettingsAPI
+- ChatInputButtonAPI
 
 ## Author
 
