@@ -1,4 +1,4 @@
-# Blu Performance Mode Toggle
+# Vencord Performance Mode Toggle Plugin
 
 A Vencord user plugin that adds a performance mode toggle button to optimize Discord settings for better performance.
 
